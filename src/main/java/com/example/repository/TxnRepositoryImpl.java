@@ -105,12 +105,6 @@ public class TxnRepositoryImpl  implements TxnRepository{
 		
 	}
 
-
-
-
-	
-	
-
 	public List<Txn> findCurrentMonthTxr( Account account) {
 		
 		// TODO Auto-generated method stub

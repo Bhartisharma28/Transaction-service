@@ -26,6 +26,7 @@ public class JdbcAccountRepository implements AccountRepository {
 			/*
 			 * if (rs.next()) { account = new Account(); account.setNum(rs.getString(1));
 			 * account.setBalance(rs.getDouble(2)); }
+			 * 
 			 */
 			rs.next();
 			account=new Account();
